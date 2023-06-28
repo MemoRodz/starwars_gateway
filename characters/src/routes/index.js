@@ -9,3 +9,4 @@ router.get("/", controllers.getCharacters);
 router.post("/", middlewares.characterValidation, controllers.createCharacter);
 
 module.exports = router;
+

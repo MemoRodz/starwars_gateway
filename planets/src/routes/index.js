@@ -9,3 +9,4 @@ router.get("/", controllers.getPlanets);
 router.post("/",middlewares.planetValidation, controllers.createPlanet);
 
 module.exports = router;
+

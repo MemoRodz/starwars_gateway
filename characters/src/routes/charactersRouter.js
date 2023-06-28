@@ -8,3 +8,4 @@ characterRouter.get("/", (req,res) => {
 });
 
 module.exports = characterRouter;
+

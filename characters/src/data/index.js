@@ -8,3 +8,4 @@ module.exports = {
         throw Error("Hay un error al momento de crear el personaje.");
     },
 };
+

@@ -6,3 +6,4 @@ module.exports = async (req, res) => {
     console.log("En nuevo personaje...");
     response(res, 201, newCharacter);
 };
+

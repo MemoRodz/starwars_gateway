@@ -6,3 +6,4 @@ module.exports = async (req, res) => {
     console.log("Creando Planeta...");
     response(res, 201, newPlanet);
 };
+
