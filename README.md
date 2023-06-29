@@ -1,11 +1,11 @@
 
-### Presentación
+# Presentación
 
 ## <div align="center"> Upskilling Henry Microservicios.</div>
 
 <br/>
 
-# 🚀 Una App con microservicios
+### 🚀 Una App con microservicios
 
 📌 1. Servicio para atender peticiones HTTP para Personajes de Starwars.
 
@@ -19,14 +19,16 @@
 
 <br/>
 
+### Algo sobre mí
+
 - 🌱 Actualmente estoy aprendiendo sobre **Javascript, Node.Js, React, React-Redux, Express, Sequelize.**  
 
 - 💬 Puedes preguntarme sobre **C#, Visual Basic, SQL Server, PL-SQL, SQLite, OnBase, Docuware.**  
 
 
-
 <hr />
 Atte. Guillermo Rodríguez 
+
 [Portafolio](https://memorodz.github.io/portfolio/)
 
 <div align="center">
