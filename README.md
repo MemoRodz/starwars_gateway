@@ -1,7 +1,7 @@
 
 # Presentación
 
-<img align="center" src='./Logo_GRS.svg' height='70px'>
+<img align="center" src='./repoimg/Logo_GRS.svg' height='70px'>
 
 ## <div align="center"> Upskilling Henry Microservicios.</div>
 
