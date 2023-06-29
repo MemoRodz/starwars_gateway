@@ -1,19 +1,19 @@
 
 # Presentación
 
-## <div align="center"> Upskilling Henry Microservicios.</div>
+<img align="center" src='./Logo_GRS.svg' height='70px'>
 
-<br/>
+## <div align="center"> Upskilling Henry Microservicios.</div>
 
 ### 🚀 Una App con microservicios
 
-📌 1. Servicio para atender peticiones HTTP para Personajes de Starwars.
+📌 1. Servicio para atender peticiones HTTP para [Personajes](./characters/) de Starwars.
 
-📌 2. Servicio para atender peticiones HTTP para Películas de Starwars.
+📌 2. Servicio para atender peticiones HTTP para [Películas](./films/) de Starwars.
 
-📌 3. Servicio para atender peticiones HTTP para Planetas de Starwars.
+📌 3. Servicio para atender peticiones HTTP para [Planetas](./planets/) de Starwars.
 
-📌 4. Aplicación Gateway para distribuir peticiones HTTP según el tipo de servicio.
+📌 4. Aplicación [Gateway](./gateway/) para distribuir peticiones HTTP según el tipo de servicio.
 
 📌 5. "Si nos da tiempo", Configuración de Contenedores Docker para la funcionalidad completa.
 
@@ -39,7 +39,7 @@ Atte. Guillermo Rodríguez
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
 <a href="mailto:gmo.rodriguez@gmail.com" target="_blank">
-<img src='./00-CV/filescv/icons8-hombre-con-correo-50.png' alt=Email style="margin-bottom: 5px;" />
+<img src='./repoimg/icons8-hombre-con-correo-50.png' alt=Email style="margin-bottom: 5px;" />
 </a>    
 <a href="https://linkedin.com/in/guillermo-rodríguez-74b10039" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
@@ -49,5 +49,5 @@ Atte. Guillermo Rodríguez
 </a>  
 
 </div> 
-
+<br/>
 
