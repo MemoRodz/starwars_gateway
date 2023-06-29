@@ -15,7 +15,7 @@
 
 📌 4. Aplicación [Gateway](./gateway/) para distribuir peticiones HTTP según el tipo de servicio.
 
-📌 5. "Si nos da tiempo", Configuración de Contenedores Docker para la funcionalidad completa.
+📌 5. Configuración de Contenedores Docker para la funcionalidad completa.
 
 <p>
 Para generar contenedores Docker:
