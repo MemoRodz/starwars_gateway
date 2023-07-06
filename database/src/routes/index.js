@@ -1,15 +1,15 @@
 const { Router } = require("express");
 const store = require("../database");
 const { validateModel } = require("../middlewares");
-const {response} = require("../utils");
+//const {response} = require("../utils");
 
 const router = Router();
 
 router.get("/:model", validateModel, async (req, res) => {
     const { model } = req.params;
     const datos = await store[model].list();
-    //res.status(200).json(response);
-    response(res, 200, datos);
+    res.status(200).json(datos);
+    //response(res, 200, datos);
 });
 
 router.get("/:model/:id", validateModel, async (req, res) => {
@@ -18,8 +18,7 @@ router.get("/:model/:id", validateModel, async (req, res) => {
     //console.log(`Modelo: ${model} ID: ${id}`);
     const dato = await store[model].get(id);
     //console.log(`Resultado: ${dato}`);
-    response(res, 200, dato);
-    //res.status(200).json(response);
+    res.status(200).json(dato);
 });
 
 module.exports = router;

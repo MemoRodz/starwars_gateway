@@ -1,5 +1,5 @@
-/* const { Router } = require("express");
-const planets = require("../data/planets.json");
+const { Router, json } = require("express");
+const planets = require("../data");
 
 const planetsRouter = Router();
 
@@ -7,5 +7,9 @@ planetsRouter.get("/", (req, res) => {
   res.status(200).json(planets);
 });
 
-module.exports = planetsRouter; */
+planetsRouter.get("/:id", (req, res) => {
+  res.status(200),json(planets);
+});
+
+module.exports = planetsRouter;
 
