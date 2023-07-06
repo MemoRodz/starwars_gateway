@@ -1,19 +1,25 @@
 const { Router } = require("express");
 const store = require("../database");
 const { validateModel } = require("../middlewares");
+const {response} = require("../utils");
 
 const router = Router();
 
 router.get("/:model", validateModel, async (req, res) => {
     const { model } = req.params;
-    const response = await store[model].list();
-    res.status(200).json(response);
+    const datos = await store[model].list();
+    //res.status(200).json(response);
+    response(res, 200, datos);
 });
 
 router.get("/:model/:id", validateModel, async (req, res) => {
+    //console.log("En obtener dato por Id...");
     const {model, id } = req.params;
-    const response = await store[model].get(id);
-    res.status(200).json(response);
-})
+    //console.log(`Modelo: ${model} ID: ${id}`);
+    const dato = await store[model].get(id);
+    //console.log(`Resultado: ${dato}`);
+    response(res, 200, dato);
+    //res.status(200).json(response);
+});
 
 module.exports = router;
