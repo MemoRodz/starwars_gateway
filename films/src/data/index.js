@@ -4,7 +4,6 @@ const axios = require("axios");
 
 module.exports = {
     list: async () => {
-        //return films;
         return await axios.get("http://database:8004/Film");
     },
     getById: async(_id) => {

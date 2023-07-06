@@ -3,6 +3,6 @@ const {response} = require("../utils");
 
 module.exports = async (req, res) => {
     const planets = await Planets.list();
-    response(res, 200, planets);
+    response(res, 200, planets.data);
 };
 
