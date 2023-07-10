@@ -15,7 +15,34 @@
 
 📌 4. Aplicación [Gateway](./gateway/) para distribuir peticiones HTTP según el tipo de servicio.
 
-📌 5. "Si nos da tiempo", Configuración de Contenedores Docker para la funcionalidad completa.
+📌 5. Configuración de Contenedores Docker para la funcionalidad completa.
+
+<p>
+Para generar contenedores Docker:
+
+docker build -t "nombre_del_contenedor"
+
+Para estos casos:
+
+docker build -t gateway .
+
+Para ejecutar los contenedores:
+
+docker run --network="Nombre_Red" --name="Nombre_Contenedor" -p "Puerto_Local":"Puerto_Contenedor" "Nombre_En_La_Red_Del_Contenedor"
+
+Para estos casos:
+
+docker run --network=starwars --name=gateway -p 8000:8000 gateway
+
+Para crear redes en Docker para contenedores:
+
+docker network create "Nombre_Red"
+
+En estos casos:
+
+docker network create starwars
+
+</p>
 
 <br/>
 
