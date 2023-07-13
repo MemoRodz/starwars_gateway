@@ -48,23 +48,23 @@ docker network create starwars
 
 ### 🚀 Tecnologías usadas App.
 
-🚀 Lenguaje Javascript
+🛸 Lenguaje Javascript
 
-🚀 Nodejs
+🛰 Nodejs
 
-🚀 Express
+🛸 Express
 
-🚀 Morgan
+🛰 Morgan
 
-🚀 Axios
+🛸 Axios
 
-🚀 Conexión a MongoDB
+🛰 Conexión a MongoDB
 
-🚀 Mongoose
+🛸 Mongoose
 
-🚀 Docker
+🛰 Docker
 
-🚀 Docker-Compose
+🛸 Docker-Compose
 
 
 <br/>
