@@ -22,7 +22,7 @@
 
 📌 6. Configuración de Contenedores Docker para la funcionalidad completa.
 
-<p align="justify">
+<p style="text-align: justify;">
 Para generar contenedores Docker:
 
 docker build -t "nombre_del_contenedor"
