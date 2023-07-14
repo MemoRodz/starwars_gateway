@@ -1,7 +1,8 @@
 
 # Presentación
-
+<a href="https://youtu.be/NXci7lByQt0" target="_blank">
 <img align="center" src='./repoimg/Logo_GRS.svg' height='70px'>
+</a>  
 
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
@@ -20,6 +21,8 @@
 📌 5. Aplicación [Database](./database/) servicio de base de datos.
 
 📌 6. Configuración de Contenedores Docker para la funcionalidad completa.
+
+📌 7. Puedes consultar el servicio en http://34.125.155.222:8000 y hacer las peticiones a /characters , /films y/o /planets en todas las rutas puedes consultar la información por ID.
 
 <p>
 Para generar contenedores Docker:
