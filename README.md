@@ -22,6 +22,8 @@
 
 📌 6. Configuración de Contenedores Docker para la funcionalidad completa.
 
+📌 7. Puedes consultar el servicio en http://34.125.155.222:8000 y hacer las peticiones a /characters , /films y/o /planets en todas las rutas puedes consultar la información por ID.
+
 <p>
 Para generar contenedores Docker:
 
