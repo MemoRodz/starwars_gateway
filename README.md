@@ -1,7 +1,8 @@
 
 # Presentación
-
+<a href="https://youtu.be/NXci7lByQt0" target="_blank">
 <img align="center" src='./repoimg/Logo_GRS.svg' height='70px'>
+</a>  
 
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
@@ -21,7 +22,7 @@
 
 📌 6. Configuración de Contenedores Docker para la funcionalidad completa.
 
-<p>
+<p align="justify">
 Para generar contenedores Docker:
 
 docker build -t "nombre_del_contenedor"
