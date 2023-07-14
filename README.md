@@ -3,6 +3,8 @@
 
 <img align="center" src='./repoimg/Logo_GRS.svg' height='70px'>
 
+![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+
 ## <div align="center"> Upskilling <a href="https://www.soyhenry.com/" alt="Soy Henry Bootcamp">Henry</a> Microservicios.</div>
 
 ### 🚀 Una App con microservicios
